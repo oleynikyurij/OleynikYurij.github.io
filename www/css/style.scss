@@ -3,7 +3,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background-color: #fff;
-  overflow-x: hidden;
+	overflow-x: hidden;
+	
 }
 
 img {
@@ -36,7 +37,7 @@ img {
     height: 80px;
   }
   .logo {
-		margin-right: 78px;
+		margin-right: 75px;
 		margin-left: 10px;
   }
   .nav {
@@ -63,7 +64,7 @@ img {
           list-style: none;
           z-index: 2;
           background-color: #fff;
-          display: none;
+          
           &__link {
             color: #1f2429;
             font-size: 16px;
@@ -278,11 +279,12 @@ img {
 .section {
   // padding-top: 28px;
 	// padding-bottom: 40px;
-	padding-top: 15px;
-  padding-bottom: 20px;
+	padding-top: 10px;
+  padding-bottom: 15px;
   &-h2 {
-    margin-bottom: 15px;
-    text-transform: uppercase;
+    margin-bottom: 10px;
+		text-transform: uppercase;
+		font-size: 24px;
   }
 }
 
@@ -292,16 +294,16 @@ img {
   box-shadow: 0 10px 20px rgba(121, 121, 121, 0.3);
   border-radius: 6px;
   background-color: #ffffff;
-  padding: 26px 25px 20px 20px;
+  padding: 10px 25px 10px 20px;
   &-img {
-    width: 140px;
-    height: 140px;
+    width: 90px;
+    height: 90px;
     border-radius: 6px;
     display: flex;
     justify-content: center;
     align-items: center;
     img {
-      width: 55px;
+      width: 40px;
     }
     &__1 {
       background-image: linear-gradient(-45deg, #0072ff 0%, #00c6ff 100%);
@@ -323,7 +325,7 @@ img {
     }
   }
   &-price {
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .price {
     &-title {
@@ -335,7 +337,7 @@ img {
     }
     &-count {
       color: #292f35;
-      font-size: 48px;
+      font-size: 30px;
       line-height: 24px;
       text-align: right;
     }
@@ -354,9 +356,9 @@ img {
   &-text {
     color: #61686e;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 24px;
     text-align: center;
-    margin-bottom: 15px; //35px
+    margin-bottom: 10px; //35px
     margin-top: 8px; //18px
   }
   &-input {
@@ -364,7 +366,7 @@ img {
     margin-bottom: 20px; //40px
     input {
       width: 361px;
-      height: 60px;
+      height: 30px;
       box-shadow: 0 2px 4px rgba(121, 121, 121, 0.2);
       border-radius: 30px;
       border: 1px solid #d7d7d7;
@@ -375,12 +377,16 @@ img {
       outline: none;
       transition: border 0.5s ease-in;
       &:focus {
-        border: 1px solid #00c6ff;
+				border: 1px solid #00c6ff;
+				
       }
     }
     .input-btn {
-      width: 60px;
-      height: 60px;
+			display: inline-flex;
+			justify-content: center;
+			align-self: center;
+      width: 30px;
+      height: 30px;
       box-shadow: 0 5px 10px rgba(0, 136, 255, 0.5);
       border-radius: 30px;
       background-color: #ffffff;
@@ -390,8 +396,8 @@ img {
         transform: scale(1.1, 1.1);
       }
       img {
-        width: 25px;
-        height: 28px;
+        width: 15px;
+        height: 18px;
         transition: all 0.3s ease-in;
       }
     }
@@ -409,7 +415,7 @@ img {
       }
     }
     img {
-      width: 36px;
+      width: 30px;
       transition: all 0.3s ease-in;
     }
   }
@@ -418,18 +424,18 @@ img {
 //FOOTER
 .footer {
   width: 100%;
-  height: 130px; //150px
+  height: 109px; //150px
   background-color: #1f2429;
-  padding-top: 40px;//40px
+  padding-top: 20px;//40px
   .copy {
     text-align: center;
     color: #60666c;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
   }
   .privacy {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     text-align: center;
     a {
       color: #0976b4;
@@ -475,4 +481,11 @@ img {
   .mobile-img {
     display: block;
   }
+}
+
+@media (max-width: 560px) {
+
+.share-input input {
+	width: 340px;
+}
 }
