@@ -328,14 +328,14 @@ img {
 }
 
 .section {
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
 
 .section-h2 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .block {
@@ -349,12 +349,12 @@ img {
           box-shadow: 0 10px 20px rgba(121, 121, 121, 0.3);
   border-radius: 6px;
   background-color: #ffffff;
-  padding: 10px 25px 10px 20px;
+  padding: 20px 25px 20px 20px;
 }
 
 .block-img {
-  width: 90px;
-  height: 90px;
+  width: 130px;
+  height: 130px;
   border-radius: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -368,7 +368,7 @@ img {
 }
 
 .block-img img {
-  width: 40px;
+  width: 45px;
 }
 
 .block-img__1 {
@@ -420,26 +420,26 @@ img {
   font-weight: 600;
   line-height: 24px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 70px;
 }
 
 .share-text {
   color: #61686e;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 27px;
   text-align: center;
-  margin-bottom: 10px;
-  margin-top: 8px;
+  margin-bottom: 30px;
+  margin-top: 18px;
 }
 
 .share-input {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .share-input input {
   width: 361px;
-  height: 30px;
+  height: 40px;
   -webkit-box-shadow: 0 2px 4px rgba(121, 121, 121, 0.2);
           box-shadow: 0 2px 4px rgba(121, 121, 121, 0.2);
   border-radius: 30px;
@@ -513,9 +513,9 @@ img {
 
 .footer {
   width: 100%;
-  height: 109px;
+  height: 130px;
   background-color: #1f2429;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .footer .copy {
