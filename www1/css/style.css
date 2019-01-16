@@ -394,21 +394,21 @@ img {
 }
 
 .block-img__3 {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#24b9ff), to(#15a9f3));
-  background-image: linear-gradient(0deg, #24b9ff 0%, #15a9f3 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#37bffd), to(#22a2e2));
+  background-image: linear-gradient(0deg, #37bffd 0%, #22a2e2 100%);
 }
 
 .block-img__4 {
-  background-image: linear-gradient(-45deg, #24b9ff 0%, #15a9f3 100%);
+  background-image: linear-gradient(-45deg, #2ba8e2 0%, #0485c5 100%);
 }
 
 .block-img__5 {
-  background-image: -webkit-gradient(linear, right top, left top, from(#24b9ff), to(#15a9f3));
-  background-image: linear-gradient(-90deg, #24b9ff 0%, #15a9f3 100%);
+  background-image: -webkit-gradient(linear, right top, left top, from(#4ebcf0), to(#059ce7));
+  background-image: linear-gradient(-90deg, #4ebcf0 0%, #059ce7 100%);
 }
 
 .block-img__6 {
-  background-image: linear-gradient(-135deg, #24b9ff 0%, #15a9f3 100%);
+  background-image: linear-gradient(-135deg, #2ca4db 0%, #117cb1 100%);
 }
 
 .block-price {
