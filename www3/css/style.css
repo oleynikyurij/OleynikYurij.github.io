@@ -342,7 +342,7 @@ img {
 
 .section-h2 span {
   text-transform: uppercase;
-  font-weight: 200;
+  font-weight: 600;
   font-size: 20px;
   height: 30px;
   display: inline-block;
@@ -384,27 +384,27 @@ img {
 }
 
 .block-img__1 {
-  background-image: linear-gradient(-45deg, #0072ff 0%, #00c6ff 100%);
+  background-color: #0072ff;
 }
 
 .block-img__2 {
-  background-image: linear-gradient(-45deg, #41c7af 0%, #54e38e 100%);
+  background-color: #2e73c9;
 }
 
 .block-img__3 {
-  background-image: linear-gradient(-45deg, #a43ab2 0%, #e13680 100%);
+  background-color: #063f85;
 }
 
 .block-img__4 {
-  background-image: linear-gradient(-45deg, #a16bfe 0%, #deb0df 99%, #deb0df 100%);
+  background-color: #2530d4;
 }
 
 .block-img__5 {
-  background-image: linear-gradient(-45deg, #f66351 0%, #fbc136 99%, #fbc136 100%);
+  background-color: #1625a8;
 }
 
 .block-img__6 {
-  background-image: linear-gradient(-45deg, #ec5f5c 0%, #fcaa8b 98%, #fcaa8b 100%);
+  background-image: linear-gradient(-45deg, #2530d4 0%, #1625a8 98%, #3a42b1 100%);
 }
 
 .block-price {
@@ -414,6 +414,7 @@ img {
 .block .price-title {
   color: #61676e;
   font-size: 18px;
+  font-weight: 600;
   line-height: 24px;
   text-align: right;
 }
