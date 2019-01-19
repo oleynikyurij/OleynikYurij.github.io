@@ -712,6 +712,68 @@ img {
 	}
 }
 
+
+// HELP PAGE
+
+.qestions {
+	box-shadow: 0 10px 20px rgba(121, 121, 121, 0.3);
+	border-radius: 6px;
+	margin-bottom: 20px;
+
+	&-title {
+		display: inline-block;
+		width: 100%;
+		border-bottom: 2px solid #efefef;
+		text-decoration: none;
+		color: #1f2429;
+		font-size: 18px;
+		font-weight: 600;
+		padding: 29px;
+		transition: all 0.3s ease-in;
+
+		span {
+			display: inline-flex;
+			border-radius: 50%;
+			text-shadow: 0 2px 4px rgba(0, 198, 255, 0.3);
+			background-color: #0073ff;
+			width: 22px;
+			height: 22px;
+			justify-content: center;
+			align-items: center;
+			margin-right: 12px;
+
+			img {
+				width: 10px;
+				height: 10px;
+				transition: all 0.3s ease-in;
+			}
+		}
+
+		.rotate {
+			transform: rotate(180deg);
+
+		}
+
+		&:hover {
+			color: #58a0f8;
+			text-decoration: none;
+		}
+	}
+
+	&-content {
+		transition: all 0.3s;
+		max-height: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.content-active {
+		max-height: 700px;
+		padding: 20px 26px 33px 24px;
+
+	}
+}
+
 //FOOTER
 .footer {
 	width: 100%;
@@ -758,6 +820,8 @@ img {
 		}
 	}
 }
+
+
 
 //MEDIA
 @media (max-width: 1070px) {
@@ -823,4 +887,39 @@ img {
 			margin-top: 15px;
 		}
 	}
+
+	.help {
+		.section-h2 {
+			font-size: 25px;
+		}
+
+		.qestions-title {
+			font-size: 15px;
+			padding: 15px;
+		}
+	}
+
+	.user-profile {
+
+		.profile {
+			padding-bottom: 0;
+
+			.profile-foto {
+				.profile-info {
+
+					.name {
+						margin-top: 10px;
+					}
+				}
+
+			img {
+				width: 110px;
+				height: 110px;
+			}
+		}
+		}
+
+	}
+
+
 }
