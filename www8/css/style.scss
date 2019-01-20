@@ -1222,6 +1222,7 @@ img {
 		display: block;
 	}
 
+	
 	.login-form .form-register {
 
 		margin-left: 48%;
@@ -1229,15 +1230,25 @@ img {
 	}
 
 	.login {
-		// background: none;
+		background: none;
 		// padding-top: 0;
 		// padding-bottom: 0;
 		overflow: visible;
 		height: auto;
+		
 	}
 
 	.login-form {
-		padding: 20px 4%;
+		padding: 0px 4%;
+		padding-top: calc(100% - 168px);
+		box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+		border-radius: 6px;
+		background: url(../img/loginm_bg.jpg)   no-repeat;
+		background-size: contain;
+	}
+	.mobile-logo {
+		
+		
 	}
 
 	.login-form .form-next {
@@ -1259,7 +1270,8 @@ img {
 
 	.login-form .login-h4 {
 
-		margin-bottom: 45px;
+		margin-bottom: 30px;
+		font-size: 32px;
 	}
 	.login-form .form-sms {
     

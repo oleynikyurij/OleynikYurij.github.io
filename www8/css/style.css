@@ -1256,11 +1256,18 @@ img {
     font-size: 11px;
   }
   .login {
+    background: none;
     overflow: visible;
     height: auto;
   }
   .login-form {
-    padding: 20px 4%;
+    padding: 0px 4%;
+    padding-top: calc(100% - 168px);
+    -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    background: url(../img/loginm_bg.jpg) no-repeat;
+    background-size: contain;
   }
   .login-form .form-next {
     width: 60px;
@@ -1274,7 +1281,8 @@ img {
     margin-bottom: 45px;
   }
   .login-form .login-h4 {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
+    font-size: 32px;
   }
   .login-form .form-sms {
     margin-top: 26%;
