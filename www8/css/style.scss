@@ -17,7 +17,7 @@ body {
 
 html,
 body {
-	height: 100%;
+	min-height: 100%;
 }
 
 img {
@@ -1200,6 +1200,7 @@ img {
 }
 
 @media (max-width: 991.98px) {
+  
 	.header .logo {
 		margin-right: 8px;
 	}
@@ -1223,13 +1224,14 @@ img {
 
 	.login-form .form-register {
 
-		margin-left: 0;
+		margin-left: 48%;
+		font-size: 11px;
 	}
 
 	.login {
-		background: none;
-		padding-top: 0;
-		padding-bottom: 0;
+		// background: none;
+		// padding-top: 0;
+		// padding-bottom: 0;
 		overflow: visible;
 		height: auto;
 	}
@@ -1242,23 +1244,49 @@ img {
 
 		width: 60px;
 		height: 60px;
-		bottom: -20%;
-		left: 38%;
+		bottom: -29px;
+		left: 24px;
 		z-index: 1;
-		border-radius: 50%;
+		// border-radius: 50%;
 		background-color: #0072ff;
 
 	}
 
 	.login-form .logo {
 
-		margin-bottom: 32px;
+		margin-bottom: 45px;
 	}
 
 	.login-form .login-h4 {
 
-		margin-bottom: 30px;
+		margin-bottom: 45px;
 	}
+	.login-form .form-sms {
+    
+    margin-top: 26%;
+}
+.login-form .logo__sign {
+	margin-bottom: 6px;
+}
+.login-form .login-h4__sign {
+	margin-bottom: 10px;
+	font-size: 27px;
+}
+.login-form .form-phone__sign {
+	margin-bottom: 14px;
+	
+	input {
+		height: 45px;
+	}
+}
+.form-number__sign .form-label {
+	margin-bottom: 12px;
+}
+.checkbox {
+	display: inline-block;
+	margin-top: 13px;
+	margin-bottom: 34px;
+}
 }
 
 @media (max-width: 560px) {
@@ -1331,4 +1359,19 @@ img {
 
 		font-size: 12px;
 	}
+	.login-form .form-phone__sign {
+		margin-bottom: 12px;
+		 
+		input {
+			height: 42px;
+		}
+	}
+	.form-number__sign .form-label {
+    margin-bottom: 5px;
+}
+.checkbox {
+	
+	margin-top: 5px;
+	margin-bottom: 25px;
+}
 }
