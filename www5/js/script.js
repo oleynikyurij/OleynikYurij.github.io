@@ -1,5 +1,3 @@
-
-
 let mobileMenu = document.querySelector('.menu-toggle');
 let overlay = document.querySelector('.overlay');
 let mobile = document.querySelector('.mobile');
@@ -10,7 +8,7 @@ let dropDown = document.querySelector('.drop-down');
 
 let input = document.querySelector('#text');
 
-mobileMenu.addEventListener('click', (e)=>{
+mobileMenu.addEventListener('click', (e) => {
 	e.preventDefault();
 	overlay.classList.toggle('dn');
 	mobileMenu.classList.toggle('dn');
@@ -28,5 +26,31 @@ dropDown.addEventListener('click', (e) => {
 	dropDown.classList.toggle('dn');
 });
 
+let qestionsTitle = document.querySelectorAll('.qestions-title');
+let qestionsContent = document.querySelectorAll('.qestions-content');
+let qestionsImg = document.querySelectorAll('.qestions-img');
 
 
+qestionsTitle.forEach((item, i) => {
+
+	item.addEventListener('click', (e) => {
+		e.preventDefault();
+
+		if (e.currentTarget == item && qestionsContent[i].classList.contains('content-active')) {
+
+			qestionsContent[i].classList.remove('content-active');
+			qestionsImg[i].classList.remove('rotate');
+		} else {
+			qestionsContent.forEach((item) => {
+				item.classList.remove('content-active');
+			});
+			qestionsImg.forEach((item) => {
+				item.classList.remove('rotate');
+			});
+			qestionsContent[i].classList.add('content-active');
+			qestionsImg[i].classList.add('rotate');
+		}
+
+	})
+
+});
