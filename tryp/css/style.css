@@ -1395,6 +1395,15 @@ img {
     width: 110px;
     height: 110px;
   }
+  .login {
+    padding-top: 30px;
+  }
+  .login-form {
+    padding-top: 90px;
+  }
+  .login-form .logo {
+    margin-bottom: 25px;
+  }
   .login-form .sign-up {
     font-size: 12px;
   }
