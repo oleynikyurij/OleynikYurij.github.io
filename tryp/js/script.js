@@ -22,15 +22,20 @@ mobileMenu.addEventListener('click', (e) => {
 
 btnDrop.addEventListener('click', (e) => {
 	e.preventDefault();
-	
 	dropDown.classList.toggle('dn');
 
+	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
+		btnDrop.classList.toggle('menu-item-link__active');
+	} 
 	// btnDrop.classList.toggle('menu-item-link__active');
 });
 
 dropDown.addEventListener('click', (e) => {
 	e.preventDefault();
 	dropDown.classList.toggle('dn');
+	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
+		btnDrop.classList.toggle('menu-item-link__active');
+	}
 	// btnDrop.classList.toggle('menu-item-link__active');
 });
 

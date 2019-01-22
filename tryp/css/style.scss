@@ -1081,7 +1081,7 @@ img {
     background: none; // padding-top: 0;
     // padding-bottom: 0;
     overflow: visible;
-    height: auto;
+    // height: auto;
   }
   .login-form {
     padding: 0px 4%;
@@ -1154,7 +1154,10 @@ img {
   }
   .login {
     padding-top: 20px;
-  }
+	}
+	.login__sign {
+		padding-top: 160px;
+	}
   .login-form {
     padding-top: 130px;
     .logo {
