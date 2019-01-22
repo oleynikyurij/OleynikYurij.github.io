@@ -1081,7 +1081,7 @@ img {
   }
   .login-form {
     padding: 0px 4%;
-    padding-top: calc(100% - 168px);
+    padding-top: 250px;
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     background: url(../img/loginm_bg.jpg) no-repeat;
@@ -1108,7 +1108,11 @@ img {
   }
   .login-form .logo__sign {
     margin-bottom: 6px;
-  }
+	}
+	
+	.login-form__sign {
+		padding-bottom: 30px;
+	}
   .login-form .login-h4__sign {
     margin-bottom: 10px;
     font-size: 27px;
@@ -1156,7 +1160,10 @@ img {
       margin-bottom: 20px;
       font-size: 27px;
     }
-  }
+	}
+	.login-form__sign {
+		padding-bottom: 30px;
+	}
 }
 
 @media (max-width: 375px) {
@@ -1208,7 +1215,10 @@ img {
       margin-bottom: 20px;
       font-size: 20px;
     }
-  }
+	}
+	.login-form__sign {
+		padding-bottom: 30px;
+	}
   .login-form .sign-up {
     font-size: 12px;
   }
