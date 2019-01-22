@@ -1044,6 +1044,10 @@ img {
   padding: 20px 10%;
 }
 
+.login-form__sign .form-label {
+  margin-bottom: 8px;
+}
+
 .login-form .logo {
   width: 96px;
   margin-bottom: 70px;
@@ -1055,7 +1059,7 @@ img {
 
 .login-form .login-h4 {
   color: #1f2429;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 400;
   margin-bottom: 50px;
 }
@@ -1135,7 +1139,11 @@ img {
 }
 
 .login-form .form-phone__sign {
-  margin-bottom: 23px;
+  margin-bottom: 9px;
+}
+
+.login-form .form-phone__sign input {
+  height: 53px;
 }
 
 .login-form .form-phone input {
@@ -1177,8 +1185,8 @@ img {
   -ms-flex-item-align: center;
       align-self: center;
   position: absolute;
-  width: 120px;
-  height: 120px;
+  width: 105px;
+  height: 105px;
   bottom: 50px;
   left: -87px;
   z-index: 1;
@@ -1371,6 +1379,19 @@ img {
   .share-input .input-btn {
     margin-top: 15px;
   }
+  .login {
+    padding-top: 20px;
+  }
+  .login-form {
+    padding-top: 130px;
+  }
+  .login-form .logo {
+    margin-bottom: 30px;
+  }
+  .login-form .login-h4 {
+    margin-bottom: 20px;
+    font-size: 27px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1408,6 +1429,10 @@ img {
   }
   .login-form .logo {
     margin-bottom: 25px;
+  }
+  .login-form .login-h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
   }
   .login-form .sign-up {
     font-size: 12px;
