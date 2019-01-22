@@ -27,7 +27,7 @@ btnDrop.addEventListener('click', (e) => {
 	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
 		btnDrop.classList.toggle('menu-item-link__active');
 	} 
-	// btnDrop.classList.toggle('menu-item-link__active');
+	
 });
 
 dropDown.addEventListener('click', (e) => {
@@ -36,7 +36,7 @@ dropDown.addEventListener('click', (e) => {
 	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
 		btnDrop.classList.toggle('menu-item-link__active');
 	}
-	// btnDrop.classList.toggle('menu-item-link__active');
+	
 });
 
 let qestionsTitle = document.querySelectorAll('.qestions-title');

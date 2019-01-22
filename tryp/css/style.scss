@@ -3,7 +3,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   background-color: #fff;
-  overflow-x: hidden; //footer bottom
+  overflow-x: hidden; 
   display: flex;
   flex-direction: column;
 }
@@ -47,7 +47,7 @@ img {
   width: 100%;
   box-shadow: 0 5px 10px rgba(121, 121, 121, 0.2);
   .nav .menu-item-link.active-link {
-    // box-shadow: 0 10px 10px rgba(0, 114, 255, 0.3);
+   
     background-color: #58a0f8;
     color: #fff;
   }
@@ -135,7 +135,7 @@ img {
         }
         &_drop-down {
           width: 145px;
-          height: 40px; // box-shadow: 0 10px 10px rgba(0, 114, 255, 0.3);
+          height: 40px; 
           border-radius: 30px;
           color: #1f2429;
           padding: 13px 40px 13px 21px;
@@ -145,7 +145,7 @@ img {
           position: relative;
           transition: 0.3s ease-in;
           &:hover {
-            border-radius: 30px; // background-image: linear-gradient(90deg, #3e32ea 0%, #7bcffa 100%);
+            border-radius: 30px; 
             background-color: #58a0f8;
             color: #fff;
             box-shadow: 0 10px 10px rgba(0, 114, 255, 0.3);
@@ -163,8 +163,8 @@ img {
         }
         &__active {
           width: 145px;
-          height: 40px; // box-shadow: 0 10px 10px rgba(0, 114, 255, 0.3);
-          border-radius: 30px; // background-color: #0072ff;
+          height: 40px; 
+          border-radius: 30px; 
           background-image: linear-gradient(90deg, #3e32ea 0%, #7bcffa 100%);
           color: #fff;
           padding: 13px 40px 13px 21px;
@@ -185,20 +185,7 @@ img {
             top: 22px;
             right: 20px;
             background: url(../img/arrow-down.png) no-repeat;
-          } // &::before {
-          //   content: '';
-          //   bottom: 11px;
-          //   left: 14px;
-          //   position: absolute;
-          //   width: 75%;
-          //   height: 2px;
-          //   background-color: #fff;
-          //   transition: 0.2s;
-          //   transform: scaleX(0);
-          // }
-          // &:hover:before {
-          //   transform: scaleX(1);
-          // }
+          } 
         }
       }
     }
@@ -230,7 +217,7 @@ img {
     position: absolute;
     top: 80px;
     right: 0;
-    left: 0; // display: block;
+    left: 0; 
     z-index: 3;
     background-color: #fff;
     &-menu {
@@ -701,8 +688,6 @@ img {
 .footer {
   width: 100%;
   height: 130px; //150px
-  // position: absolute;
-  // bottom: 0;
   background-color: #1f2429;
   padding-top: 40px; //40px
   .copy {
@@ -812,13 +797,11 @@ img {
 
 .bg-phone {
   position: relative;
-	z-index: 1;
-	overflow: hidden;
-
+  z-index: 1;
+  overflow: hidden;
   img {
-		height: 656px;
-		width: auto;
-		
+    height: 656px;
+    width: auto;
   }
 }
 
@@ -860,7 +843,9 @@ img {
   .form-label {
     color: #1f2429;
     font-weight: 700;
-  } //SELECT
+	} 
+	
+	//SELECT
   .form-select {
     width: 100%;
     height: 60px;
@@ -937,12 +922,12 @@ img {
       line-height: 27px;
       text-transform: uppercase;
     }
-	}
-	.checkbox {
-		display: inline-block;
-		margin-top: 15px;
-	}
-	.form-register {
+  }
+  .checkbox {
+    display: inline-block;
+    margin-top: 15px;
+  }
+  .form-register {
     display: inline-block;
     color: #0072ff;
     font-size: 14px;
@@ -1081,11 +1066,10 @@ img {
     background: none; // padding-top: 0;
     // padding-bottom: 0;
     overflow: visible;
-	}
-	.login__sign {
-		height: auto;
-
-	}
+  }
+  .login__sign {
+    height: auto;
+  }
   .login-form {
     padding: 0px 4%;
     padding-top: 250px;
@@ -1115,11 +1099,10 @@ img {
   }
   .login-form .logo__sign {
     margin-bottom: 6px;
-	}
-	
-	.login-form__sign {
-		padding-bottom: 30px;
-	}
+  }
+  .login-form__sign {
+    padding-bottom: 30px;
+  }
   .login-form .login-h4__sign {
     margin-bottom: 10px;
     font-size: 27px;
@@ -1157,10 +1140,10 @@ img {
   }
   .login {
     padding-top: 20px;
-	}
-	.login__sign {
-		padding-top: 70px;
-	}
+  }
+  .login__sign {
+    padding-top: 70px;
+  }
   .login-form {
     padding-top: 130px;
     .logo {
@@ -1170,11 +1153,10 @@ img {
       margin-bottom: 20px;
       font-size: 27px;
     }
-	}
-	.login-form__sign {
-		padding-bottom: 30px;
-		
-	}
+  }
+  .login-form__sign {
+    padding-bottom: 30px;
+  }
 }
 
 @media (max-width: 375px) {
@@ -1226,11 +1208,11 @@ img {
       margin-bottom: 20px;
       font-size: 20px;
     }
-	}
-	.login-form__sign {
-		padding-bottom: 30px;
-		padding-top: 120px;
-	}
+  }
+  .login-form__sign {
+    padding-bottom: 30px;
+    padding-top: 120px;
+  }
   .login-form .sign-up {
     font-size: 12px;
   }
