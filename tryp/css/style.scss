@@ -1081,8 +1081,11 @@ img {
     background: none; // padding-top: 0;
     // padding-bottom: 0;
     overflow: visible;
-    // height: auto;
-  }
+	}
+	.login__sign {
+		height: auto;
+
+	}
   .login-form {
     padding: 0px 4%;
     padding-top: 250px;
@@ -1156,7 +1159,7 @@ img {
     padding-top: 20px;
 	}
 	.login__sign {
-		padding-top: 160px;
+		padding-top: 70px;
 	}
   .login-form {
     padding-top: 130px;
@@ -1170,6 +1173,7 @@ img {
 	}
 	.login-form__sign {
 		padding-bottom: 30px;
+		
 	}
 }
 
@@ -1225,7 +1229,7 @@ img {
 	}
 	.login-form__sign {
 		padding-bottom: 30px;
-		padding-top: 155px;
+		padding-top: 120px;
 	}
   .login-form .sign-up {
     font-size: 12px;
