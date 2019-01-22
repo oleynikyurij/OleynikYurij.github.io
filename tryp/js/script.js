@@ -22,14 +22,16 @@ mobileMenu.addEventListener('click', (e) => {
 
 btnDrop.addEventListener('click', (e) => {
 	e.preventDefault();
+	
 	dropDown.classList.toggle('dn');
-	btnDrop.classList.toggle('menu-item-link__active');
+
+	// btnDrop.classList.toggle('menu-item-link__active');
 });
 
 dropDown.addEventListener('click', (e) => {
 	e.preventDefault();
 	dropDown.classList.toggle('dn');
-	btnDrop.classList.toggle('menu-item-link__active');
+	// btnDrop.classList.toggle('menu-item-link__active');
 });
 
 let qestionsTitle = document.querySelectorAll('.qestions-title');
