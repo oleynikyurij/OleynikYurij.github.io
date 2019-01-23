@@ -812,7 +812,7 @@ img {
 
 .upgrade .upgrade-block .upgrade-img {
   position: relative;
-  max-height: 145px;
+  height: 145px;
   overflow: hidden;
 }
 
@@ -835,9 +835,10 @@ img {
 }
 
 .upgrade .text-block .title {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 700;
   margin-bottom: 12px;
+  min-height: 50px;
 }
 
 .upgrade .text-block .text {
@@ -845,7 +846,7 @@ img {
   line-height: 24px;
   font-weight: 400;
   margin-bottom: 26px;
-  min-height: 75px;
+  height: 95px;
   overflow: hidden;
 }
 
@@ -1491,6 +1492,20 @@ img {
     display: inline-block;
     margin-top: 13px;
     margin-bottom: 34px;
+  }
+  .upgrade .section-h2 {
+    margin-bottom: 20px;
+  }
+  .upgrade .section-h2__big {
+    font-size: 18px;
+  }
+  .upgrade .text-block {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .upgrade .text-block .title {
+    font-size: 16px;
   }
 }
 
