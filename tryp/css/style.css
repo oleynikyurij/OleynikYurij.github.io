@@ -1603,5 +1603,8 @@ img {
     margin-top: 5px;
     margin-bottom: 25px;
   }
+  .upgrade .upgrade-block .upgrade-img {
+    height: 125px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
