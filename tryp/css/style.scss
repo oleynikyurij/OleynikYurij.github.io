@@ -675,7 +675,8 @@ img {
 			transition: all 0.3s ease-in;
 
 			&:hover {
-				background-color: #58a0f8;
+				background-color: #0072ff;
+				color: #fff;
 				text-decoration: none;
 			}
 
@@ -834,6 +835,7 @@ img {
 		justify-content: space-between;
 		border-top: 2px solid #efefef;
 		padding: 20px;
+		cursor: pointer;
 
 		span {
 			color: #333333;
@@ -842,11 +844,26 @@ img {
 			text-transform: uppercase;
 		}
 
-		img {
+		&__img {
 			width: 15px;
 			height: 9px;
 			margin-top: 8px;
+			&.rotate {
+				transform: rotate(180deg);
+			}
 		}
+		&__text {
+			min-height: 300px;
+			font-size: 16px;
+    line-height: 24px;
+			padding: 10px;
+			border-top: 1px solid #efefef;
+		}
+	}
+	&__text {
+		color: #1f2429;
+		max-width: 700px;
+		text-align: center;
 	}
 }
 
@@ -1276,7 +1293,7 @@ img {
 		text-align: center;
 
 		a {
-			color: #0976b4;
+			color: #0072ff;
 			text-decoration: none;
 			position: relative;
 
@@ -1287,7 +1304,7 @@ img {
 				position: absolute;
 				width: 100%;
 				height: 2px;
-				background-color: #0976b4;
+				background-color: #0072ff;
 				transition: 0.2s;
 				transform: scaleX(0);
 			}

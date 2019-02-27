@@ -24,19 +24,19 @@ btnDrop.addEventListener('click', (e) => {
 	e.preventDefault();
 	dropDown.classList.toggle('dn');
 
-	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
+	if (btnDrop.classList.contains('menu-item-link_drop-down')) {
 		btnDrop.classList.toggle('menu-item-link__active');
-	} 
-	
+	}
+
 });
 
 dropDown.addEventListener('click', (e) => {
 	e.preventDefault();
 	dropDown.classList.toggle('dn');
-	if (btnDrop.classList.contains('menu-item-link_drop-down') ) {
+	if (btnDrop.classList.contains('menu-item-link_drop-down')) {
 		btnDrop.classList.toggle('menu-item-link__active');
 	}
-	
+
 });
 
 let qestionsTitle = document.querySelectorAll('.qestions-title');
@@ -67,3 +67,18 @@ qestionsTitle.forEach((item, i) => {
 	})
 
 });
+
+//Membership Upgrade
+
+let upgradeFooter = document.querySelectorAll('.upgrade-footer');
+let upgradeFooterText = document.querySelectorAll('.upgrade-footer__text');
+
+upgradeFooter.forEach(
+	function (el, i) {
+		el.addEventListener('click', function () {
+			upgradeFooterText[i].classList.toggle('dn');
+
+			this.querySelector('.upgrade-footer__img').classList.toggle('rotate');
+
+		});
+	});

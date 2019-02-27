@@ -743,7 +743,8 @@ img {
 }
 
 .user-profile .menu-link:hover {
-  background-color: #58a0f8;
+  background-color: #0072ff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -907,6 +908,7 @@ img {
           justify-content: space-between;
   border-top: 2px solid #efefef;
   padding: 20px;
+  cursor: pointer;
 }
 
 .upgrade .upgrade-footer span {
@@ -916,10 +918,29 @@ img {
   text-transform: uppercase;
 }
 
-.upgrade .upgrade-footer img {
+.upgrade .upgrade-footer__img {
   width: 15px;
   height: 9px;
   margin-top: 8px;
+}
+
+.upgrade .upgrade-footer__img.rotate {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.upgrade .upgrade-footer__text {
+  min-height: 300px;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 10px;
+  border-top: 1px solid #efefef;
+}
+
+.upgrade__text {
+  color: #1f2429;
+  max-width: 700px;
+  text-align: center;
 }
 
 .qestions {
@@ -1381,7 +1402,7 @@ img {
 }
 
 .footer .privacy a {
-  color: #0976b4;
+  color: #0072ff;
   text-decoration: none;
   position: relative;
 }
@@ -1393,7 +1414,7 @@ img {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #0976b4;
+  background-color: #0072ff;
   -webkit-transition: 0.2s;
   transition: 0.2s;
   -webkit-transform: scaleX(0);
