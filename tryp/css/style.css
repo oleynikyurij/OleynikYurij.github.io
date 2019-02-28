@@ -839,7 +839,7 @@ img {
   font-size: 17px;
   font-weight: 700;
   margin-bottom: 12px;
-  min-height: 50px;
+  height: 75px;
 }
 
 .upgrade .text-block .text {
@@ -1533,6 +1533,10 @@ img {
 @media (max-width: 560px) {
   .block {
     margin-right: 0;
+  }
+  .upgrade .text-block .text,
+  .upgrade .text-block .title {
+    height: auto;
   }
 }
 

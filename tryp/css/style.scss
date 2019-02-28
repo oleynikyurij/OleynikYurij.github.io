@@ -777,7 +777,7 @@ img {
 			font-size: 17px;
 			font-weight: 700;
 			margin-bottom: 12px;
-			min-height: 50px;
+			height: 75px;
 		}
 
 		.text {
@@ -1455,6 +1455,11 @@ img {
 	.block {
 		margin-right: 0;
 	}
+	.upgrade .text-block .text,
+	.upgrade .text-block .title {
+		height: auto;
+	}
+	
 }
 
 @media (max-width: 415px) {
